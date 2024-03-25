@@ -3,6 +3,10 @@ import type { ButtonProps } from './Button.types'
 import { Text } from '../Text';
 import type { TextProps } from '../Text/Text.types';
 
+export function sum(a: number, b: number) {
+  return a + b;
+}
+
 /**
  * Primary UI component for user interaction
  */
